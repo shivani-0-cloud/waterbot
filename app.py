@@ -241,7 +241,7 @@ elif "Chatbot" in page:
             user_input = st.text_input("You:", placeholder="💭 Ask about water safety...")
             if st.button("🤖 Ask WaterBot") and user_input:
                 with st.spinner("WaterBot thinking..."):
-                    model = genai.GenerativeModel("gemini-1.5-flash-latest")
+                    model = genai.GenerativeModel("gemini-1.5-flash")
                     response = model.generate_content(user_input)
                     st.markdown(f"**WaterBot:** {response.text}")
         except Exception as e:
