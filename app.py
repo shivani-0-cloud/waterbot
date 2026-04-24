@@ -263,7 +263,7 @@ elif "About" in page:
     - AI chatbot (WaterBot)  
     - Twitter sharing integration  
 
-    **Team:** WaterBot Project | GTU 20256 
+    **Team:** WaterBot Project | GTU 2026 
 
     _Disclaimer: This app uses a rule-based estimator for demo purposes. Always confirm results with lab testing._
     """)
